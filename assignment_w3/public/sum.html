@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <body>
+
+
+    <div id="sum">
+      <!-- <form action="">Please enter a number</form> -->
+      Please enter a number <input type="text" id="number">
+        <button type="submit" onclick="loadDoc()">Submit</button>
+    </div>
+
+    <script>
+      
+        let xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function() {
+          if (this.readyState == 4 && this.status == 200) {
+            document.getElementById("sum").innerHTML = this.responseText;
+            }
+          };
+
+        function loadDoc() {  
+        const number = document.getElementById("number").value
+        xhr.open("GET", `http://localhost:3000/getData?number=${number}`, true);
+        xhr.send();
+        }
+  
+      </script>
+      
+
+  </body>
+</html>
