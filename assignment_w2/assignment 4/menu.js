@@ -1,4 +1,4 @@
-let newName = document.getElementById('titleName')
+const newName = document.getElementById('titleName')
 
 
 newName.addEventListener('click',function (){
@@ -8,8 +8,8 @@ newName.addEventListener('click',function (){
 
 })
 
-let callToAction = document.getElementById('actionBtn')
-let action = document.getElementsByClassName('main-2')[0]
+const callToAction = document.getElementById('actionBtn')
+const action = document.getElementsByClassName('main-2')[0]
 
 callToAction.addEventListener('click',function (){
     console.log('@@')
@@ -21,9 +21,9 @@ callToAction.addEventListener('click',function (){
     console.log(1)
 })
 
-let callMenu = document.getElementsByClassName('menu-toggle')[0]
-let showMenu = document.getElementsByClassName('nav-items')[0]
-let closeMenu = document.getElementById('x')
+const callMenu = document.getElementsByClassName('menu-toggle')[0]
+const showMenu = document.getElementsByClassName('nav-items')[0]
+const closeMenu = document.getElementById('x')
 
 callMenu.addEventListener('click',function(){
     console.log('@@')
