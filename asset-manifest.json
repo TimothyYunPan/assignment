@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/timothyyunpan/assignment.git/static/css/main.3bf4d667.css",
+    "main.js": "/timothyyunpan/assignment.git/static/js/main.ecd0766e.js",
+    "index.html": "/timothyyunpan/assignment.git/index.html",
+    "main.3bf4d667.css.map": "/timothyyunpan/assignment.git/static/css/main.3bf4d667.css.map",
+    "main.ecd0766e.js.map": "/timothyyunpan/assignment.git/static/js/main.ecd0766e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3bf4d667.css",
+    "static/js/main.ecd0766e.js"
+  ]
+}
