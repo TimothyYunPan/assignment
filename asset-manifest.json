@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/timothyyunpan/assignment/assignment_w4/react-web/my-app/static/css/main.3bf4d667.css",
-    "main.js": "/timothyyunpan/assignment/assignment_w4/react-web/my-app/static/js/main.ecd0766e.js",
-    "index.html": "/timothyyunpan/assignment/assignment_w4/react-web/my-app/index.html",
-    "main.3bf4d667.css.map": "/timothyyunpan/assignment/assignment_w4/react-web/my-app/static/css/main.3bf4d667.css.map",
-    "main.ecd0766e.js.map": "/timothyyunpan/assignment/assignment_w4/react-web/my-app/static/js/main.ecd0766e.js.map"
+    "main.css": "/timothyyunpan/assignment/static/css/main.3bf4d667.css",
+    "main.js": "/timothyyunpan/assignment/static/js/main.ecd0766e.js",
+    "index.html": "/timothyyunpan/assignment/index.html",
+    "main.3bf4d667.css.map": "/timothyyunpan/assignment/static/css/main.3bf4d667.css.map",
+    "main.ecd0766e.js.map": "/timothyyunpan/assignment/static/js/main.ecd0766e.js.map"
   },
   "entrypoints": [
     "static/css/main.3bf4d667.css",
