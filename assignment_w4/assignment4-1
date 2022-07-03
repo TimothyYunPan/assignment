@@ -1,0 +1,45 @@
+// assignment 1
+// function delayedResult(n1, n2, delayTime, callback) {
+// // your code here
+//   result = n1+n2
+//   setTimeout(()=>{callback(result)},delayTime)
+
+// }
+
+// delayedResult(4, 5, 3000, function(result) {
+// console.log(result);
+// }); // 9 (4+5) will be shown in the console after 3 seconds
+// delayedResult(-5, 10, 2000, function(result) {
+// window.alert(result);
+// }); // 5 (-5+10) will be shown in an alert dialog after 2 seconds
+
+// assignment 2
+function ajax(src, callback) {
+	// your code here
+	let xhr = new XMLHttpRequest();
+	xhr.open('get', src);
+	xhr.send();
+	xhr.onload = () => {
+		let data = JSON.parse(xhr.responseText);
+		callback(data);
+	};
+}
+function render(data) {
+	// your code here
+	
+		let str = `<tr><td>model</td><td>price</td><td>description</td></tr>`
+		for (let i = 0; i<data.length; i++){
+			str += `<tr>
+				<td>${data[i].name}</td><td>${data[i].price}</td><td>${data[i].description} </td>
+			</tr>
+			`
+		}
+
+		document.getElementById('Doc').innerHTML = str
+ 
+
+	data;
+}
+ajax('https://appworks-school.github.io/Remote-Aassigiment-Data/products', function(response) {
+	render(response);
+}); // you should get product information in JSON format and render data in the page
